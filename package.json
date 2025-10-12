@@ -1,0 +1,27 @@
+{
+  "name": "kitty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "kitty-parse -o result.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d1y/kitty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/d1y/kitty/issues"
+  },
+  "homepage": "https://github.com/d1y/kitty#readme",
+  "dependencies": {
+    "@types/kitty": "https://gitpkg.vercel.app/waifu-project/movie/JS/types?dev",
+    "kitty": "https://gitpkg.vercel.app/waifu-project/movie/JS/cli?dev",
+    "cheerio": "^1.1.2",
+    "typescript": "^5.9.2"
+  }
+}
